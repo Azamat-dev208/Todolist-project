@@ -1,0 +1,35 @@
+.todo-container{
+    width: 500px;
+    height: fit-content;
+    margin: 0 auto;
+    background-color: aqua;
+    border: solid 1px #000;
+}
+#todoInput{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+#addTodoBtn{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: 0;
+}
+#todoInput:focus{
+    border:3px solid black;
+}
+#todoList{
+    border: 2px solid tomato;
+    border-radius: 10px;
+    max-height: 200px;
+    overflow: auto;
+    margin: 10px;
+}
+#todoList #todoItem{
+    font-size: 20px;
+}
